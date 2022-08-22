@@ -1,0 +1,46 @@
+title: "Galerie"
+style: "style2 medium lightbox onload-fade-in"
+pictures:
+  - title: "Title"
+    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery/fulls/01.jpg"
+    thumb: "images/gallery/thumbs/01.jpg"
+    button: "Details"
+
+  - title: "Title"
+    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery/fulls/02.jpg"
+    thumb: "images/gallery/thumbs/02.jpg"
+    button: "Details"
+
+  - title: "Title"
+    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery/fulls/04.jpg"
+    thumb: "images/gallery/thumbs/04.jpg"
+    button: "Details"
+
+  - title: "Title"
+    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery/fulls/05.jpg"
+    thumb: "images/gallery/thumbs/05.jpg"
+    button: "Details"
+
+  - title: "Title"
+    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery/fulls/06.jpg"
+    thumb: "images/gallery/thumbs/06.jpg"
+    button: "Details"
+
+  - title: "Title"
+    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery/fulls/08.jpg"
+    thumb: "images/gallery/thumbs/08.jpg"
+    button: "Details"
+
+  - title: "Title"
+    content: "Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices."
+    image: "images/gallery/fulls/09.jpg"
+    thumb: "images/gallery/thumbs/09.jpg"
+    button: "Details"
+
+    

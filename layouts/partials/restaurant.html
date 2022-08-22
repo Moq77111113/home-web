@@ -1,0 +1,12 @@
+<section>
+    <span class="icon {{ .style }}"></span>
+    <h3>{{ .name }}</h3>
+    <p>{{ .content | safeHTML }}</p>
+    <p>{{with .addressLink }}<a target="_blank" href="{{.}}" class="icon fa-map-marker style1"></a>{{end}} {{ .address
+        | safeHTML }}
+    </p>
+    <ul class="icons">
+        {{range.links }}<li><a  href="{{ .url | safeURL}}" class="{{ .style}}"><span
+                    class="label">{{.name}}</span></a></li>{{ end }}
+    </ul>
+</section>

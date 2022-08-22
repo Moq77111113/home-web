@@ -1,0 +1,19 @@
+####################### Spotlight #########################
+style: "style1 orient-right content-align-left image-position-center onscroll-image-fade-in"
+id: "findUs"
+title : "Nous trouver"
+content: > 
+address: "https://maps.google.com/maps?q=216%20rue%20eugene%20pottier%20la%20seyne%20sur%20mer&t=&z=12&ie=UTF8&iwloc=&output=embed"
+links: 
+ - name: by-car
+   urlm: https://www.google.com
+   label: En voiture
+   style: "icon fa-car"
+ - name: line-70
+   url: https://www.google.com
+   label: Depuis la gare de la Seyne
+   style: "icon primary fa-bus"
+ - name: line-8
+   url: https://www.google.com
+   label: Depuis la gare de Toulon
+   style: "icon fa-bus"

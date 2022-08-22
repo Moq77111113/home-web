@@ -1,0 +1,14 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "Bienvenue à la maison !"
+content : >
+ Nous vous accueillons dans un T3 en rez de chaussé, dans une petite résidence calme et sécurisée. <br /><br />
+ Je ne propose pas de petit déjeuner, mais je vous offre sans problème café, thé ou chocolat chaud. <br /><br />
+ Pour vous garer, il y a souvent des places devant la résidence, ou sur la rue adjacente.
+image : "images/banner.jpg"
+button:
+  label : "Nous trouver"
+  icon: "fa-map-marker"
+  link : "#findUd"
+airbnb: "https://airbnb.fr"
+

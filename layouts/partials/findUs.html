@@ -1,0 +1,22 @@
+<!-- Spotlight -->
+<section class="spotlight {{ .style }}" {{ with .id }} id="{{ . }}" {{ end }}>
+    <div class="content">
+        {{ with .title }}<h2>{{ . }}</h2>{{ end }}
+        {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
+        <ul class="actions stacked"> {{range .links}}<li> <a href="{{ .url }}" class="button {{ .style}}">{{
+                    .label
+                    }}</a>{{end}}
+
+            </li>
+        </ul>
+        {{ with .button }}
+        <ul class="actions stacked">
+            <li><a href="{{ .link }}" class="button">{{ .label }}</a></li>
+        </ul>{{ end }}
+    </div>
+    {{ with .address }}<div class="image">
+        <iframe src="{{ . }}" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="100%"
+            height="100%"></iframe>
+    </div>
+    {{ end }}
+</section>

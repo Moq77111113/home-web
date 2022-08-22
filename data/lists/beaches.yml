@@ -1,0 +1,14 @@
+title : "Plages"
+content: 
+style: "style1 medium onscroll-fade-in"
+items:
+  - name : "Les sablettes"
+    kind: "beach"
+    content : > 
+     Cette plage pittoresque est un lieu de baignade et de bronzage prisé l'été. Locations de planches de surf et restaurants.<br /> <br />
+     Vous pouvez vous y rendre en empruntant le bus 70 à l'arrêt Stalingrad puis le bus n°8 au port de la Seyne
+    style : "style2 major fa-umbrella-beach"
+    url: "https://web.yamay.app"
+    links: 
+     - style: "icon fa-bus style2"
+       name: "Comment s'y rendre"

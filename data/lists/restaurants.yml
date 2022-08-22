@@ -1,0 +1,40 @@
+title : "Restaurants "
+content: 
+style: "style1 medium onscroll-fade-in"
+items:
+  - name : "La spiaggia"
+    kind: "restaurant"
+    content : > 
+      Bienvenue à La Spiaggia, restaurant de bord de mer à Six-Fours-les-Plages.
+      Établissement familial proposant une sélection de spécialités italiennes et méditerranéennes dans une ambiance chaleureuse.
+    style : "style2 major fa-pizza-slice"
+    address: "16 rue du 18 Novembre,<br />83120 Six-Fours les plages"
+    addressLink: "https://web.yamay.app"
+    links: 
+     - style: "icon fa-phone style2"
+       name: "Téléphone"
+       url: "tel:0652582901"
+     - style: "icon brands style2 fa-instagram"
+       name: "Instagram"
+       url: "https://instagram.com/"
+     - style: "icon style2 fa-link"
+       name: "web"
+       url: "https://web.yamay.app"
+  - name: "La Piazza"
+    kind: "restaurant"
+    content : > 
+      Bienvenue à La Spiaggia, restaurant de bord de mer à Six-Fours-les-Plages.
+      Établissement familial proposant une sélection de spécialités italiennes et méditerranéennes dans une ambiance chaleureuse.
+    style : "style2 major fa-pizza-slice"
+    address: "16 rue du 18 Novembre,<br />83120 Six-Fours les plages"
+    addressLink: "https://web.yamay.app"
+    links: 
+     - style: "icon fa-phone style2"
+       name: "Téléphone"
+       url: "tel:0652582901"
+     - style: "icon brands style2 fa-instagram"
+       name: "Instagram"
+       url: "https://instagram.com/"
+     - style: "icon style2 fa-link"
+       name: "web"
+       url: "https://web.yamay.app"
