@@ -1,0 +1,52 @@
+title: "Balades"
+id: "hikes"
+content: 
+style: "style1 small on-scroll-fade-in"
+items:
+  - name: "Ile du grand Gaou"
+    style: "style2 major fa-island-tropical"
+    kind: "hike"
+    content: >
+      De belles balades à faire dans cet endroit plein de charme avec vue sur l'île des embiez.
+      Pour la plage aussi si vous arrivez suffisamment tôt
+    gallery: 
+      style: "style2 medium onload-fade-in"
+      pictures:
+        - image: "images/gallery/hikes/gaou/fulls/01.jpg"
+          thumb: "images/gallery/hikes/gaou/thumbs/01.jpg"
+        - image: "images/gallery/hikes/gaou/fulls/02.jpg"
+          thumb: "images/gallery/hikes/gaou/thumbs/02.jpg"
+        - image: "images/gallery/hikes/gaou/fulls/03.jpg"
+          thumb: "images/gallery/hikes/gaou/thumbs/03.jpg"
+  - name: "Port de plaisance de Toulon"
+    style: "style2 major fa-ship"
+    kind: "hike"
+    content: >
+      Port sympathique à côté des vieux quartier de Toulon, idéal pour boire un café ou une boisson fraîche en terrasse. Vue sur les bateaux et possibilité de visite de la rade en bateau
+    gallery: 
+      style: "style2 medium onload-fade-in"
+      pictures:
+        - image: "images/gallery/hikes/toulon/fulls/01.jpg"
+          thumb: "images/gallery/hikes/toulon/thumbs/01.jpg"
+        - image: "images/gallery/hikes/toulon/fulls/02.jpg"
+          thumb: "images/gallery/hikes/toulon/thumbs/02.jpg"
+        - image: "images/gallery/hikes/toulon/fulls/03.jpg"
+          thumb: "images/gallery/hikes/toulon/thumbs/03.jpg"
+  - name: "Sanary-sur-mer"
+    style: "style2 major fa-ship"
+    kind: "hike"
+    content: >
+      Port toujours plein d'animation, marché nocturne le soir tout les étés.
+      Le marché provençal se tient en face du port et à été élu il y a deux ans "Plus beau marché de France"
+    gallery: 
+      style: "style2 medium onload-fade-in"
+      pictures:
+        - image: "images/gallery/hikes/sanary/fulls/01.jpg"
+          thumb: "images/gallery/hikes/sanary/thumbs/01.jpg"
+        - image: "images/gallery/hikes/sanary/fulls/02.jpg"
+          thumb: "images/gallery/hikes/sanary/thumbs/02.jpg"
+        - image: "images/gallery/hikes/sanary/fulls/03.jpg"
+          thumb: "images/gallery/hikes/sanary/thumbs/03.jpg"
+    
+
+    

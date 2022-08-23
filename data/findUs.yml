@@ -6,14 +6,14 @@ content: >
 address: "https://maps.google.com/maps?q=216%20rue%20eugene%20pottier%20la%20seyne%20sur%20mer&t=&z=12&ie=UTF8&iwloc=&output=embed"
 links: 
  - name: by-car
-   urlm: https://www.google.com
+   url: https://www.google.fr/maps/dir/43.120153,5.848731/216+Rue+Eug%C3%A8ne+Pottier,+La+Seyne-sur-Mer/@43.1151667,5.8574901,15z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x12c90483302a39fb:0x689f0b27ebf6804a!2m2!1d5.8665251!2d43.1050638!3e0?utm_medium=s2email&shorturl=1
    label: En voiture
    style: "icon fa-car"
  - name: line-70
-   url: https://www.google.com
+   url: https://www.reseaumistral.com/fr/itineraires/4/TripPlanner/index?KeywordDep=Gare%20(Seyne%2FSix%20Fours)%20-%20LA%20SEYNE%20SUR%20MER%20Arr%C3%AAt&PointDep=3852_4&KeywordArr=Stalingrad%20-%20LA%20SEYNE%20SUR%20MER%20Arr%C3%AAt&PointArr=3934_4&TypeDate=68&Hour=16&Minute=15&Algorithm=Fastest&TypeTrip=PlanTrip&IgnoreDisruptions=False&WalkDistance=1000&WalkSpeed=4&CarDistance=25&BikeDistance=10&BikeSpeed=10&Accessibility=0&IsoBefore=True&IsSeveralNetworks=False&Submit=True&ExpandCriteria=0
    label: Depuis la gare de la Seyne
    style: "icon primary fa-bus"
  - name: line-8
-   url: https://www.google.com
+   url: https://www.reseaumistral.com/fr/itineraires/4/TripPlanner/index?KeywordDep=Gare%20Routi%C3%A8re%20(Toulon)%20-%20TOULON&PointDep=4161_4&KeywordArr=Stalingrad%20-%20LA%20SEYNE%20SUR%20MER&PointArr=3934_4&LatArr=43%2C1049347145&LngArr=5%2C8695632345&D&TypeDate=68&Hour=16&Minute=15&DurationVia=30&Algorithm=Fastest&TypeTrip=PlanTrip&IgnoreDisruptions=False&WalkDistance=1000&WalkSpeed=4&CarDistance=25&CarLeave=0&BikeDistance=10&BikeLeave=0&BikeSpeed=10&Accessibility=0&IsoBefore=True&IsSeveralNetworks=False&Submit=False&ExpandCriteria=0&ListModes=Bus%7CBoat%7CSchool%7CTod&Length=11&_=1661263306279
    label: Depuis la gare de Toulon
    style: "icon fa-bus"

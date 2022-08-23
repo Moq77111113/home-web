@@ -6,9 +6,17 @@ content : >
  Je ne propose pas de petit déjeuner, mais je vous offre sans problème café, thé ou chocolat chaud. <br /><br />
  Pour vous garer, il y a souvent des places devant la résidence, ou sur la rue adjacente.
 image : "images/banner.jpg"
-button:
-  label : "Nous trouver"
-  icon: "fa-map-marker"
-  link : "#findUd"
-airbnb: "https://airbnb.fr"
+links:
+  - style: "icon primary small fa-map-marker fa-solid style2"
+    name: "Nous trouver"
+    url: "#findUs"
+  - style: "icon small fa-utensils style2"
+    name: "Restaurants"
+    url: "#restaurants"
+  - style: "icon primary style2 fa-water fa-solid"
+    name: "Plages"
+    url: "#beaches"
+  - style: "icon style2 fa-solid fa-binoculars"
+    name: "Balades"
+    url: "#hikes"
 

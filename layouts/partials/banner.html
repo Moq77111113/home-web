@@ -1,17 +1,18 @@
 <!-- Banner -->
 <section class="banner {{ .style }}">
     <div class="content">
-
         {{ with .title }}<h1>{{ . }}</h1>{{ end }}
         {{ with .subtitle }}<p class="major">{{ . | safeHTML }}</p>{{ end }}
         {{ with .content }}<p>{{ . | safeHTML }}</p>{{ end }}
-        {{ with .button }}<ul class="actions stacked">
-            <li><a href="{{ .link }}" class="button primary large wide smooth-scroll-middle icon fa-map-marker">{{
-                    .label }}</a></li>
-        </ul>{{ end }}
+        {{ with .links }}<ul class="icons">
+            {{range . }}<li><a target="_blank" rel="noopener" href="{{ .url }}" class="{{ .style}}"><span
+                        class="label">{{.name}}</span></a>
+            </li>{{ end }}
+        </ul>
+        {{end}}
     </div>
 
-    {{ with .image }}<div class="image">
+    {{ with .image }}<div class=" image">
         <img src="{{.}}" alt="welcome" />
     </div>{{end}}
 </section>

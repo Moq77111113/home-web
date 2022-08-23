@@ -1,4 +1,5 @@
-title : "Restaurants "
+title : "Restaurants"
+id: "restaurants"
 content: 
 style: "style1 medium onscroll-fade-in"
 items:
@@ -7,34 +8,55 @@ items:
     content : > 
       Bienvenue à La Spiaggia, restaurant de bord de mer à Six-Fours-les-Plages.
       Établissement familial proposant une sélection de spécialités italiennes et méditerranéennes dans une ambiance chaleureuse.
-    style : "style2 major fa-pizza-slice"
-    address: "16 rue du 18 Novembre,<br />83120 Six-Fours les plages"
-    addressLink: "https://web.yamay.app"
+    style : "style2 major fa-hat-chef"
+    address: 302 Cor du Cros,<br />83140 Six-Fours-les-Plages
+    addressLink: "https://goo.gl/maps/haLA7AFJD7so85Yk8"
     links: 
      - style: "icon fa-phone style2"
        name: "Téléphone"
-       url: "tel:0652582901"
+       url: "tel:0789309685"
      - style: "icon brands style2 fa-instagram"
        name: "Instagram"
-       url: "https://instagram.com/"
+       url: "https://www.instagram.com/spiaggia_r"
      - style: "icon style2 fa-link"
        name: "web"
-       url: "https://web.yamay.app"
+       url: "https://www.spiaggia-ristorante.com/"
+  - name: "La Jetée"
+    kind: "restaurant"
+    content : > 
+     Idéal pour faire une pierre deux coup après la plage et manger juste à côté du sable.
+     Cuisine délicieuse, super ambiance avec vue sur la plage des sablettes !
+    style : "style2 major fa-fish"
+    address: 71 Av. de la Jetée,<br /> 83500 La Seyne-sur-Mer
+    addressLink: "https://goo.gl/maps/Z6FruS74zBNxJT4A7"
+    links: 
+     - style: "icon fa-phone style2"
+       name: "Téléphone"
+       url: "tel:0650915545"
+     - style: "icon brands style2 fa-instagram"
+       name: "Instagram"
+       url: "https://www.instagram.com/restau_la_jetee/"
+     - style: "icon style2 fa-link"
+       name: "Site web"
+       url: "https://lajetee-sablettes.fr/"
   - name: "La Piazza"
     kind: "restaurant"
     content : > 
-      Bienvenue à La Spiaggia, restaurant de bord de mer à Six-Fours-les-Plages.
-      Établissement familial proposant une sélection de spécialités italiennes et méditerranéennes dans une ambiance chaleureuse.
+      Ambiance chaleureuse, cuisine italienne délicieuse, proche de la mer et des plages.
+      Réservation fortement conseillée !
     style : "style2 major fa-pizza-slice"
-    address: "16 rue du 18 Novembre,<br />83120 Six-Fours les plages"
-    addressLink: "https://web.yamay.app"
+    address: "Place Lalo,<br />83500 La Seyne-sur-Mer"
+    addressLink: "https://g.page/lapiazza83?share"
     links: 
      - style: "icon fa-phone style2"
        name: "Téléphone"
-       url: "tel:0652582901"
+       url: "tel:0494874792"
      - style: "icon brands style2 fa-instagram"
        name: "Instagram"
-       url: "https://instagram.com/"
+       url: "https://www.instagram.com/lapiazza83/"
+     - style: "icon fa-voicemail style2"
+       name: "Réserver"
+       url: "https://www.lapiazza83.fr/reserver/"
      - style: "icon style2 fa-link"
        name: "web"
-       url: "https://web.yamay.app"
+       url: "https://www.lapiazza83.fr/"

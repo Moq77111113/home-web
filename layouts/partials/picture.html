@@ -2,11 +2,12 @@
     <a href="{{ .image }}" class="image">
         <img src="{{ .thumb }}" alt="{{ .title }}" class="" />
     </a>
-    <div class="caption">
+    {{ if .button}} <div class="caption">
         <h3>{{ .title }}</h3>
         <p>{{ .content }}</p>
         <ul class="actions fixed">
             <li><span class="button small">{{ .button }}</span></li>
         </ul>
     </div>
+    {{end}}
 </article>
