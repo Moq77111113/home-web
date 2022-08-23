@@ -1,10 +1,12 @@
-<section>
-    <span class="icon {{ .style }}"></span>
-    <h3>{{ .name }}</h3>
-    <p>{{ .content | safeHTML }}</p>
+<section style="padding:1em">
+    <div>
+        <span class="icon {{ .style }}"></span>
+        <h3>{{ .name }}</h3>
+        <p>{{ .content | safeHTML }}</p>
+    </div>
     <ul class="icons">
-        <li><a target="_blank" href="{{ .url}}" class="icon fa-map-marker style2"></a></li>
-        {{range.links }}<li><a target="_blank" href="{{ .url }} | safeURL" class="{{ .style}}"><span
+        <li><a target="_blank" rel="noopener" href="{{ .url}}" class="icon fa-map-marker style2"></a></li>
+        {{range.links }}<li><a target="_blank" rel="noopener" href="{{ .url }} | safeURL" class="{{ .style}}"><span
                     class="label">{{.name}}</span></a></li>{{ end }}
     </ul>
 </section>

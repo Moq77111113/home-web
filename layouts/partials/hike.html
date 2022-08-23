@@ -1,0 +1,7 @@
+<section style="padding:1em">
+    <div><span class="icon {{ .style }}"></span>
+    </div>
+    <h3>{{ .name }}</h3>
+    <p>{{ .content | safeHTML }}</p>
+    {{ partial "gallery" .gallery}}
+</section>
